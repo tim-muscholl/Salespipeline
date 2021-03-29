@@ -1,8 +1,8 @@
 # Salespipeline
 ----------------------------------------
-Datenbankprojekt von Tim Muscholl und Valentin Kieslinger.
-HDBW - München
-Wintersemester 2020/21
+Developed by Tim Muscholl, 
+TM Enterprises
+2020 
 ----------------------------------------
 
 Um die Anwendung zu starten muss die Application Class ausgeführt werden. 

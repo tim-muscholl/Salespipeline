@@ -4338,6 +4338,7 @@ packages:
       toposort: 1.0.7
       util.promisify: 1.0.0
       webpack: 4.42.0_webpack@4.42.0
+    deprecated: 3.x is no longer supported
     dev: true
     engines:
       node: '>=6.9'

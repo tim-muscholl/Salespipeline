@@ -4,5 +4,6 @@
  ___) || (_| || ||  __/\__ \| |_) || || |_) ||  __/| || || | | ||  __/
 |____/  \__,_||_| \___||___/| .__/ |_|| .__/  \___||_||_||_| |_| \___|
                             |_|       |_|                             
-created by Tim Muscholl & Valentin Kieslinger | 2020 HDBW
+created by Tim Muscholl Enterprises Business Solutions
+Copyright 2020
 

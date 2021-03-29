@@ -4,10 +4,7 @@ import com.salespipeline.application.data.service.AuthService;
 import com.vaadin.flow.component.UI;
 import com.vaadin.flow.component.button.Button;
 import com.vaadin.flow.component.dependency.CssImport;
-import com.vaadin.flow.component.html.Div;
-import com.vaadin.flow.component.html.H1;
-import com.vaadin.flow.component.html.H3;
-import com.vaadin.flow.component.html.Image;
+import com.vaadin.flow.component.html.*;
 import com.vaadin.flow.component.notification.Notification;
 import com.vaadin.flow.component.textfield.PasswordField;
 import com.vaadin.flow.component.textfield.TextField;
@@ -32,7 +29,8 @@ public class LoginView extends Div {
         add(
                 new Image("images/SalespipelineLogo.png", "Salespipeline Logo"),
                 new H1("Salespipeline"),
-                new H3("by Tim Muscholl & Valentin Kieslinger"),
+                new H3("by Tim Muscholl Enterprises Business Solutions"),
+                new H4("Version 1.0"),
                 username,
                 password,
                 new Button("Login", event -> {
@@ -43,10 +41,10 @@ public class LoginView extends Div {
                     } catch (AuthService.AuthException e) {
                         Notification.show("Nice try. Please enter valid credentials");
                     }
-                }),
-                new RouterLink("Nutzer registrieren", RegisterView.class)); //Kann noch auskommentiert werden, wenn user von admins angelegt werden
+                }));
+               // new RouterLink("Nutzer registrieren", RegisterView.class)); //Kann noch auskommentiert werden, wenn user von admins angelegt werden
                 //oder die Rollen User und Admin nutzen.
-              add( new RouterLink("Admin registrieren", ARegisterView.class)); //Routerlink zur Admin registrieren
+              //add( new RouterLink("Admin registrieren", ARegisterView.class)); //Routerlink zur Admin registrieren
 
     }
 
